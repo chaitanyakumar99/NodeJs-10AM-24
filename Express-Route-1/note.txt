@@ -1,0 +1,28 @@
+npm init -y
+npm i express 
+
+API info
+
+API URL:http://127.0.0.1:8082/
+Method Type:GET
+Required Fields:None
+Access Type:Public
+
+
+API URL:http://127.0.0.1:8082/create
+Method Type:POST
+Required Fields:None
+Access Type:Public
+
+
+
+API URL:http://127.0.0.1:8082/update
+Method Type:PUT
+Required Fields:None
+Access Type:Public
+
+
+API URL:http://127.0.0.1:8082/delete
+Method Type:DELETE
+Required Fields:None
+Access Type:Public
