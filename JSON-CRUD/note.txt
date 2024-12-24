@@ -1,0 +1,29 @@
+npm init -y
+npm i express morgan chalk dotenv 
+
+{
+  "name": "json-crud",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  }
+}
+
+=========================
+Applicaiton root req
+http://127.0.0.1:8084/
+
+Router - root req 
+http://127.0.0.1:8084/api/
