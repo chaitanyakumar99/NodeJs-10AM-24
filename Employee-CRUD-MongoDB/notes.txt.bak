@@ -1,0 +1,5 @@
+cmd>npm init -y
+install required dependencies
+
+cmd>npm install express mongoose morgan chalk dotenv
+

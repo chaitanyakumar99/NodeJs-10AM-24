@@ -1,0 +1,45 @@
+cmd>npm init -y
+note: enable JS - ES6
+add property in package.json:- "type": "module",
+install required dependencies
+
+cmd>npm install express mongoose morgan chalk dotenv
+
+API Info:
+=========
+/*
+Usage: create new employee
+API URL: http://127.0.0.1:8084/emp/create
+API URL: http://127.0.0.1:8084/emp/
+Method Type:POST
+Req Fields:eid,ename,esal,eloc
+Access Type:Public
+*/
+
+/*
+Usage: featch all employees
+API URL: http://127.0.0.1:8084/emp/read
+API URL: http://127.0.0.1:8084/emp/all
+API URL: http://127.0.0.1:8084/emp/
+Method Type:GET
+Req Fields:
+Access Type:Public
+*/
+
+/*
+Usage: get employee based on id
+API URL: http://127.0.0.1:8084/emp/read/101
+API URL: http://127.0.0.1:8084/emp/101
+Method Type:GET
+Req Fields:
+Access Type:Public
+*/
+/*
+Usage: update employee based on id
+API URL: http://127.0.0.1:8084/emp/update/101
+API URL: http://127.0.0.1:8084/emp/101
+Method Type:PUT
+Req Fields: eid,ename,esal,eloc
+Req Fields: ename,esal,eloc
+Access Type:Public
+*/
